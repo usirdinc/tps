@@ -1,0 +1,74 @@
+Only Physical Address, mailing address is 6034
+
+Not need yet, but in the future:
+G-28 Checkbox
+Attorney State Bar Number
+USCIS Account Number
+
+* First Time TPS (part 1a and b) (default: yes)
+
+if Re-registration:
+* Who Granted You TPS
+
+* 3ab EAD Request? (default: yes)
+
+TPS country: Myanmar (no need)
+
+@Information About You
+Last Name, Middle ame, First Name
+2 Other Names
+
+@Mailing Address (no need)
+In Care Of Name (Ye Yint Myint Mo)
+Street Number and Name
+Apt., or Ste., or Flr., 
+Apt/Ste/Flr Label
+City or Town Label
+State:
+ZIP Code:
+Is the current mailing address same as physical address, default: no
+
+(if not same)
+@US Physical Address
+Street Number and Name
+Apt. Ste. Flr. Selection
+Apt. Ste. Slr. Label
+
+@Other Information
+Alien Registration Number (optional)
+USCIS Account (optional)
+US SSN (optional)
+Date of Birth mm/dd/yyyy
+
+@Other date of birth
+Other Date of Birth A
+Other Date of Birth B
+
+Gender Male/Female
+
+City/Town/Village of Birth
+Country of Birth
+
+@Countries of Residence (Before entering the U.S)
+Country A, B, C, D
+
+Countries of Citizenship, A, B, C, D
+
+Marital Status [Single, Never Married; Married; Divorced; Widowed; Separated; Marriage Annulled; Other]
+If Other, Other Label.
+(Same for I-821 and 912, but different for I-765)
+
+Date of Current Marriage (if married)
+
+Date of Last Entry into US
+Immigration Status When you Last Entered US (visitor, student, no status, etc.)
+US Port of Entry
+City or Town
+State
+I-94 Number
+Date Authorized Period of Stay Expires / Expired
+Passport Number (if any).
+Travel Document Number (if any)
+Additional Passport or Travel Document Number 1 and 2.
+Country of Issuance for most recent Passport or Travel Document (default: Myanmar)
+Expiration Date of most recent
