@@ -7,11 +7,10 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 # Setup WebDriver
-# "kyawsuhein.usird.client@gmail.com", aye aye paing, nandar shun let moe
  
-emails = ['ayeayepaing.usird.client@gmail.com','ayechanmoe.usird.client@gmail.com','ayemyapwintphyu.usird.client@gmail.com','ayemyatmyataung.usird.client@gmail.com','ayenandarhtun.usird.client@gmail.com','ayethidawin.usird.client@gmail.com','eichomaung.usird.client@gmail.com','eithinzarkyaw.usird.client@gmail.com','estherparthasinmawi.usird.client@gmail.com','heinhtet.usird.client@gmail.com','hmweyuparlwin@usird.org','hsushoonmyat.usird.client@gmail.com','kapkhankhual.usird.client@gmail.com','khaingmyenaung.usird.client@gmail.com','khinekhinemon.usird.client@gmail.com','kyawsoelwin.usird.client@gmail.com','kyawsuhein.usird.client@gmail.com','kyawzaw.usird.client@gmail.com','kyileiyeeoo.usird.client@gmail.com','laihninaye.usird@gmail.com','linlettlaminn.usird.client@gmail.com','lwinmyohtun.usird.client@gmail.com','maymyatnoeeain.usird.client@gmail.com','maythucho.usird.client@gmail.com','minheinkyaw.usird.client@gmail.com','minniookyaw.usird.client@gmail.com','minsithumaung.usird.client@gmail.com','minthetkyaw.usird.client@gmail.com','minthutahtun.usird.client@gmail.com','moenar.usird.client@gmail.com','myatnoethirimaung.usird.client@gmail.com','myothihakyaw.usird.client@gmail.com','nandarshunletmoe.usird.client@gmail.com','naychi.usird.client@gmail.com','nilartun.usird.client@gmail.com','nuwahthein.usird.client@gmail.com','nyanminhtet.usird.client@gmail.com','oaksoekhant.usird.client@gmail.com','phyothida.usird.client@gmail.com','phyothinzaraung.usird.client@gmail.com','ryanwin720@gmail.com','sawhanthazaw.usird.client@gmail.com','shunlaethu.usird.client@gmail.com','shwechizarwin.usird@gmail.com','shweyeeoo.usird.client@gmail.com','sithuaung.usird.client@gmail.com','soethadarbo.usird.client@gmail.com','sumyatsan.usird.client@gmail.com','susuhlaing.usird.client@gmail.com','suthirisan.usird.client@gmail.com','swesinayemyanyo.usird.client@gmail.com','theinhtikezaw.usird.client@gmail.com','thethtartinzar.usird.client@gmail.com','thetkhaingoo.usird.client@gmail.com','thinzaraung.usird.client@gmail.com','thirimyatnoe.usird.client@gmail.com','tintinthein.usird.client@gmail.com','waiyanlinmaung.usird.client@gmail.com','wunna.usird.client@gmail.com','yairyinthtun.usird.client@gmail.com','yaminthawthawhtut.usird.client@gmail.com','yeeyeekhin.usird.client@gmail.com','zarzarmoe.usird.client@gmail.com','zayarlinnhtet.usird.client@gmail.com']
+emails = []
 
-password = "AsylumGranted2023$"
+password = ""
 
 for email in emails:
     success = False
