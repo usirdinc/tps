@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Biometric Appointment Notification</title>
+    <link rel="stylesheet" href="./email_template.css">
+</head>
+<body>
+    <div class="container">
+        <p>Dear <b>{recipient_name}</b>,</p>
+
+        <p>This email is to notify you of your scheduled biometric appointment. Please see the details below:</p>
+
+        <important>
+            <b class="important">
+                Date: {date}<br/>
+                Time: {time}<br/>
+                Location: {location}
+            </b>
+        </important>
+
+        <p>
+            Here is the folder in which the documents related to your I-589 Submission are uploaded: <br>
+                <b><a class="important" href="{link}">{link}</a></b>
+        </p>
+
+        <p>Ensure you bring the necessary identification as outlined in the attached file.</p>
+
+        <p>Please send the biometrics service charge of USD 500 via Zelle to the USIRD Mobile Bank with the email: immigration@usird.org.</p>
+
+        <p>Let me know if you have any questions or concerns before the appointment.</p>
+
+        <div class="footer">
+            <p>Best regards,<br>
+            Kris Morningstar<br>
+            Immigration Service Provider | USIRD Inc.</p>
+
+            <p>
+                p: (646) 698-2775<br>
+                a: 405 Lexington Ave, New York, NY 10174<br>
+                e: <a href="mailto:immigration@usird.org">immigration@usird.org</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
