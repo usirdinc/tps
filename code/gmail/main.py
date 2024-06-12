@@ -71,7 +71,12 @@ def main():
     # Replace placeholders with dynamic content
     email_body = email_template.format(**dynamic_content)
     
-    message = create_message("immigration@usird.org", dynamic_content['email'], f"Biometric Appointment Notification - {dynamic_content['recipient_name']}", email_body)
+    message = create_message(
+        "immigration@usird.org", 
+        dynamic_content['email'], 
+        f"Biometric Appointment Notification - {dynamic_content['recipient_name']}", 
+        email_body
+    )
     send_message(service, "me", message)
 
 if __name__ == '__main__':
