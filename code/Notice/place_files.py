@@ -90,4 +90,5 @@ def __main__(files):
                 finalize(functions[keyWords.index(keyWord)](file), file, keyWords.index(keyWord))
                 break
 
+os.chdir("Notice")
 __main__(files)

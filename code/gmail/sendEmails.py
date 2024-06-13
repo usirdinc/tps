@@ -55,7 +55,7 @@ def main():
     service = get_gmail_service()
     
     # Read the HTML template from the file
-    with open('email_template.html', 'r') as file:
+    with open('./templates/biometric_notice_email.html', 'r') as file:
         email_template = file.read()
     
     # Define the dynamic content
@@ -79,5 +79,4 @@ def main():
     )
     send_message(service, "me", message)
 
-if __name__ == '__main__':
-    main()
+main()

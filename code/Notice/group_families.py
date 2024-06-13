@@ -2,6 +2,7 @@ import os
 import shutil
 from pypdf import PdfReader
     
+os.chdir("Notice")
 families = []
 
 os.chdir("Receipt Notice")
